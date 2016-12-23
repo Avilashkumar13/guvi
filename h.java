@@ -21,7 +21,7 @@ public class MyBinarySearch {
     	MyBinarySearch mbs = new MyBinarySearch();
     	int[] arr = {2, 4, 6, 8, 10, 12, 14, 16};
     	System.out.println("Key 14's position: "+mbs.binarySearch(arr, 14));
-    	int[] arr1 = {6,34,78,123,432,900};
+    	int[] arr1 = {6,34,78,124,435,900};
     	System.out.println("Key 432's position: "+mbs.binarySearch(arr1, 432));
     }
 }
