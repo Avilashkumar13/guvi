@@ -1,5 +1,5 @@
 import java.util.*;
-public class longest_prefix
+public class longest
 {
 public static void main(String ar[])throws Exception
 {
