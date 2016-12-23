@@ -7,7 +7,7 @@ int main()
     int num;
     //printf("Enter the number of disks : ");
     scanf("%d", &num);
-    printf("The sequence of moves involved in the Tower of Hanoi are :\n");
+    printf("A sequence of moves involved in the Tower of Hanoi are :\n");
     towers(num, 'A', 'C', 'B');
     return 0;
 
