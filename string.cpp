@@ -39,7 +39,7 @@ string commonPrefix(string arr[], int low, int high)
 }
  
 // Driver program to test above function
-int main()
+void main()
 {
     string arr[] = {"geeksforgeeks", "geeks",
                     "geek", "geezer"};
@@ -52,5 +52,5 @@ int main()
              << ans;
     else
         cout << "There is no common prefix";
-    return (0);
+    
 }
