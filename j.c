@@ -70,7 +70,7 @@ int main()
     b.addEdge(1, 4);
     b.addEdge(2, 4);
     b.addEdge(4, 3);
-    cout << "\nColoring of graph 2 \n";
+    cout << "\nColor of graph 2 \n";
     b.greedyColoring();
 
     return 0;
