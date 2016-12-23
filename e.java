@@ -1,18 +1,8 @@
-package complxprint;
-
-import java.util.Scanner;
-
-/**
- *
- * @author StarHP
- */
-public class Complxprint {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-
+ import java.util.Scanner;
+import java.lang.*;
+public class removecoin {
+    public static void main(String[] args)
+    {
         char c1,c2,c3;int pos,count=0,count1=0;
         StringBuilder s = new StringBuilder("THHTHHH");
         while(!"________".equals(s)) {
@@ -20,9 +10,9 @@ public class Complxprint {
             for (int i=1;i<=s.length();i++)
                 System.out.print(i);
             for (int i=0;i<s.length();i++)
-                while('H' == s.charAt(i))
+                if ('H' == s.charAt(i))
                     count=1;
-            while(count==0)
+            if (count==0)
                 break;
             count=0;
 
@@ -30,7 +20,8 @@ public class Complxprint {
             Scanner sc = new Scanner(System.in);
             pos = sc.nextInt();
             pos = pos - 1;
-
+            //System.out.println(pos);
+            //System.out.println(s.charAt(pos));
             if (pos <= s.length())
             {
 
@@ -101,4 +92,4 @@ public class Complxprint {
                 return i;
 
     }
-} 
+}
