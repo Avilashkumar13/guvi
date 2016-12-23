@@ -1,16 +1,11 @@
 import java.util.Scanner;
-
-/**
- *
- * @author R.AADHAVAN
- */
 public class Apple {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args, int i) {
-      String s1="hello";
+      String s1="anish";
 for( i=0;i<=s1.length();i++)
 {
     char e=s1.charAt(i);
